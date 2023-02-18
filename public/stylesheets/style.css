@@ -1,8 +1,53 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+*{
+  box-sizing: border-box;
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
-a {
-  color: #00B7FF;
+a{
+  text-decoration: none;
+}
+
+ol,ul,li{
+  list-style: none;
+}
+
+body {
+  background-color: #1F1F1F;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a,p,li,h1,h2,h3,h4 {
+  color: whitesmoke;
+}
+
+.navbar,footer{
+  background-color: #6D2724;
+}
+
+.navbar{
+  display: flex;
+}
+
+.nav-item{
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+footer{
+  margin-top: auto;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+h1{
+  font-size: 2.5rem;
+  margin: 1rem;
 }
