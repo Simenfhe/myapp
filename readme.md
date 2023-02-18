@@ -1,25 +1,38 @@
-Komme inn på serveren:
-i cmd:
-ssh pi@85.166.3.96
-yes
-passord er hellesnes
+# Komme inn på serveren:
 
-for å skru på serveren
-om serveren ikke er på:
+#### i cmd:
 
-./serverstart.sh (sjekk at du er i /home/pi, skal være der du lander etter ssh)
-ctrl + z
-bg
-disown -h
+#### ssh pi@85.166.3.96
 
-Om den er på eller usikker:
+#### yes
 
-killall node
-./serverstart.sh
-ctrl + z
-bg
-disown -h
+#### passord er hellesnes
+
+# for å skru på serveren
+
+## om serveren ikke er på:
+
+#### ./serverstart.sh (sjekk at du er i /home/pi, skal være der du lander etter ssh)
+
+#### ctrl + z
+
+#### bg
+
+#### disown -h
+
+## Om den er på eller usikker:
+
+#### killall node
+
+#### ./serverstart.sh
+
+#### ctrl + z
+
+#### bg
+
+#### disown -h
 
 begge disse tar først git pull også starter serveren
 så den skal være oppdatert i forhold til github repo
-https://github.com/Simenfhe/myapp.git
+
+# https://github.com/Simenfhe/myapp.git
