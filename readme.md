@@ -14,6 +14,8 @@
 
 #### ./serverstart.sh (sjekk at du er i /home/pi, skal være der du lander etter ssh)
 
+#### mulig du må akseptere merg, bare trykk ctrl + x
+
 #### ctrl + z
 
 #### bg
