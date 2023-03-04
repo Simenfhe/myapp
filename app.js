@@ -25,6 +25,10 @@ app.get("/orjan", (req,res) => {
   res.render("orjan")
 })
 
+app.get("/orjan2", (req,res) => {
+  res.render("orjan2")
+})
+
 app.get("/simen", (req,res) => {
   res.render("simen")
 })
